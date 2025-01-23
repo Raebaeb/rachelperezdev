@@ -33,7 +33,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className='mx-8 mt-5'>
+      <body className='h-screen w-screen'>
         {children}
         <ScrollRestoration />
         <Scripts />

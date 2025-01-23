@@ -4,7 +4,7 @@ export default {
   content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      special: ['"Unica One"', "sans-serif"],
+      special: ['"Sigana Condensed"', "sans-serif"],
     },
     extend: {
       fontFamily: {
@@ -13,5 +13,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animated")],
 } satisfies Config;

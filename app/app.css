@@ -1,11 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unica+One&family=Yeseva+One&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yeseva+One&family=Young+Serif&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Sigana Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Sigana Condensed.otf") format("opentype");
+}
+
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white dark:bg-[#22262d];
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
