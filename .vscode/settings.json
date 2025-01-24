@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.bracketSameLine": true,
+  "prettier.configPath": "prettier.config.mjs",
+  "prettier.prettierPath": "node_modules/prettier",
+  "prettier.jsxSingleQuote": true,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.useEditorConfig": false,
+  "prettier.useTabs": true,
+  "vs-code-prettier-eslint.prettierLast": false,
+  "prettier.enableDebugLogs": true,
+  "prettier.experimentalTernaries": true,
+  "eslint.format.enable": true,
+  "eslint.ignoreUntitled": true,
+  "fiveServer.ignore": [],
+  "eslint.run": "onSave",
+  "eslint.lintTask.enable": true,
+  "prettier.tabWidth": 2
+}

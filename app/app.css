@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yeseva+One&family=Young+Serif&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@import "tailwindcss";
+
+@plugin "tailwindcss-animated";
+@plugin "tailwindcss-intersect";
 
 @font-face {
   font-family: "Sigana Condensed";
@@ -10,17 +12,16 @@
   src: url("/fonts/Sigana Condensed.otf") format("opentype");
 }
 
+@theme {
+  --font-special: "Sigana Condensed", sans-serif;
+  --font-serif: "Young Serif";
+  --font-sans: "Montserrat";
+}
+
 html,
 body {
   @apply bg-white dark:bg-[#101011];
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
-  }
-}
-
-@layer components {
-  .circle-cutout {
-    height: 200px;
-    aspect-ratio: 1;
   }
 }

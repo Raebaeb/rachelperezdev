@@ -7,5 +7,5 @@ export default tseslint.config(
   js.configs.recommended,
   eslintConfigPrettier,
   eslintConfigReact.configs.flat["jsx-runtime"],
-  tseslint.configs.strict
+  tseslint.configs.strict,
 );

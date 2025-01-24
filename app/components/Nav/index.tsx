@@ -1,16 +1,16 @@
 export default function Navbar() {
-  return (
-    <nav className="flex w-full items-center py-6 border-b border-white/50 backdrop-blur-sm fixed z-60">
-      <div id="left-nav" className="flex">
-        <p className="font-serif text-md">Rachel Perez</p>
-        <p className="font-sans font-normal text-base ml-4">
-          FULL-STACK DEVELOPER
-        </p>
-      </div>
-      <div id="right-nav" className="ml-auto">
-        <a>work</a>
-        <a>about me</a>
-      </div>
-    </nav>
-  );
+    return (
+        <nav className="fixed z-60 flex w-full items-center border-b border-white/50 py-6 backdrop-blur-sm">
+            <div id="left-nav" className="flex">
+                <p className="text-md font-serif">Rachel Perez</p>
+                <p className="ml-4 font-sans text-base font-normal">
+                    FULL-STACK DEVELOPER
+                </p>
+            </div>
+            <div id="right-nav" className="ml-auto">
+                <a>my work</a>
+                <a>about me</a>
+            </div>
+        </nav>
+    )
 }
